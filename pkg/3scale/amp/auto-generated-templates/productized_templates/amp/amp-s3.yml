@@ -3926,7 +3926,7 @@ parameters:
     directly over HTTP during image import.
   name: IMAGESTREAM_TAG_IMPORT_INSECURE
   required: true
-  value: "false"
+  value: "true"
 - description: Redis image to use
   name: REDIS_IMAGE
   required: true
